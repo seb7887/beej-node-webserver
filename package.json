@@ -4,7 +4,7 @@
   "description": "A Node.js Web Server",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon main-server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/seb7887/beej-node-webserver#readme",
   "devDependencies": {
     "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "websocket": "^1.0.28"
   }
 }
