@@ -1,0 +1,23 @@
+{
+  "name": "beej-node-webserver",
+  "version": "1.0.0",
+  "description": "A Node.js Web Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seb7887/beej-node-webserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seb7887/beej-node-webserver/issues"
+  },
+  "homepage": "https://github.com/seb7887/beej-node-webserver#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
