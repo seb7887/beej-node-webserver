@@ -4,6 +4,7 @@
   "description": "A Node.js Web Server",
   "main": "index.js",
   "scripts": {
+    "socket": "nodemon socket-io/server.js",
     "start": "nodemon main-server.js"
   },
   "repository": {
@@ -21,6 +22,8 @@
     "nodemon": "^1.18.10"
   },
   "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0",
     "websocket": "^1.0.28"
   }
 }
